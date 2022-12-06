@@ -2,20 +2,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int ac, char **argv)
+int main(int __attribute__ ((unused)) argc, __attribute__ ((unused)) char **argv)
 {
 	char *prompt = "$ ";
 	char *lineptr;
 	size_t n = 0;
+	ssize_t nchars_read;
 
-	/* declaring void variables */
-	(void)ac;
-	(void)argv;
-
+	while(1)
+	{
 	printf("%s", prompt);
-	getline(&lineptr, &n, stdin);
+	nchars_read = getline(&lineptr, &n, stdin);
+	if(nchars_read == 0)
+	return(0);
 	printf("%s\n", lineptr);
-
+	
 	free(lineptr);
+	}
 	return (0);
 }
