@@ -8,7 +8,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 	char *lineptr_copy = NULL, token;
 	const char *delim = " \n";
 	int i, num_token = 0;
-
+	
 	while (1)
 	{
 		printf("%s", prompt);
