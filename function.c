@@ -49,6 +49,7 @@ char *strcat(char *dest, char *src)
 		*dest++ = *src++;
 	return (temp);
 }
+
 /**
  * strtok - Token A String Into Token (strtrok)
  * @str: String
