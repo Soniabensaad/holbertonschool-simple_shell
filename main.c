@@ -8,7 +8,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 	char *lineptr_copy = NULL, token;
 	const char *delim = " \n";
 	int i, num_token = 0;
-	
+
 	while (1)
 	{
 		printf("%s", prompt);
@@ -18,7 +18,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 		lineptr_copy = malloc(sizeof(char) * cmd);
 		if (lineptr_copy == NULL)
 		{
-			perror("Memory aloocation failed");
+			perror("Memory allocation failed");
 			return (-1);
 		}
 		strcpy(lineptr_copy, lineptr);
