@@ -56,7 +56,7 @@ char *strcat(char *dest, char *src)
  * @delim: Delimiter
  * Return: Pointer To The Next Token Or NULL
  */
-char *_strtok(char *str, const char *delim)
+char *strtok(char *str, const char *delim)
 {
 	static char *ts;
 	static char *nt;
