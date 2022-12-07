@@ -1,4 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-int main(int __attribute__ ((unused)) argc, __attribute__ ((unused)) char **argv);
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+int main(int __attribute__((unused)) argc, char **argv);
 #endif
