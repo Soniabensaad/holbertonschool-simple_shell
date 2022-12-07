@@ -39,7 +39,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 			token = strtok(NULL, delim);
 		}
 		argv[i] = NULL;
-		execmd(argv);
+		execute(argv);
 	}
 	free(lineptr_copy);
 	free(lineptr);
