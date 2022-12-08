@@ -2,10 +2,10 @@
 int main(int __attribute__((unused)) argc, char **argv)
 {
 	char *prompt = "$ ";
-	char *lineptr;
+	char *lineptr, *lineptr_copy = NULL;
 	size_t n = 0;
 	ssize_t cmd;
-	char *lineptr_copy = NULL, token;
+	char *token;
 	const char *delim = " \n";
 	int i, num_token = 0;
 	
