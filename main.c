@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * main - the main shell function
- * @argc: unused 
+ * @argc: unused
  * @argv: cmd input
- * Return: 0 (success) or 1(failed)
+ * Return: 0 (success) or 1 (failed)
  */
 int main(int __attribute__((unused)) argc, char **argv)
 {
