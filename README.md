@@ -1,5 +1,5 @@
 # Simple Shell Unix
-<img src="C:\Users\admin\Downloads\simple_shell1.PNG">
+<img src="![image](https://user-images.githubusercontent.com/113900693/206433139-9aae8e85-6f66-40b4-8bca-719aeac8b33e.png)">
 
 **A linux command interpreter built entirely in C.**
 
@@ -70,29 +70,31 @@ $
 
 ## Usage examples:
 ```
-sonia@DESKTOP-B460SRL:~/holbertonschool-simple_shell$ ./hsh
-$
+nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ ./hsh
+$ 
 ```
-<img src =""/>
+<img src ="![image](https://user-images.githubusercontent.com/113900693/206433600-ca9f8c3e-5f4b-4ce5-8c34-c98195b95555.png)
+"/>
 
 ```
-sonia@DESKTOP-B460SRL:~/holbertonschool-simple_shell$ ./hsh
+nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ ./hsh
 $ /bin/ls
 
 ```
-<img src="C:\Users\admin\Downloads\simple_shell1.PNG">
+<img src="![image](https://user-images.githubusercontent.com/113900693/206433795-80ecb1a4-1318-4fcc-9008-565b5a32351e.png)
+">
 
 ```
-sonia@DESKTOP-B460SRL:~/holbertonschool-simple_shell$ ./hsh
-$ /bin/ls - l
+nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ /bin/ls -l
 ```
-<img src="C:\Users\admin\Downloads\simple_shell1.PNG">
+<img src="![image](https://user-images.githubusercontent.com/113900693/206434017-cca952a9-5617-4ce2-816d-2bb1aceaa823.png)
+">
 
 ```
-sonia@DESKTOP-B460SRL:~/holbertonschool-simple_shell$ ./hsh
-$ pwd
+nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ pwd
 ```
-<img src="C:\Users\admin\Downloads\simple_shell1.PNG">
+<img src="![image](https://user-images.githubusercontent.com/113900693/206434138-c31ef00a-cb6f-4604-879e-7e2a1583b0f3.png)
+">
 
 # Project Status:
 
