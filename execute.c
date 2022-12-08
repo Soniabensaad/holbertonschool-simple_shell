@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *
+ * execute - function that executes the shell
+ * @argv: cmd input
+ * Return : void
  */
 void execute(char **argv)
 {
