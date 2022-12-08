@@ -7,7 +7,7 @@
  */
 int main(int __attribute__((unused)) argc, char **argv)
 {
-	char *prompt = "$ " ,*lineptr ,*lineptr_copy = NULL, *token;
+	char *prompt = "$ " ,*lineptr, *lineptr_copy = NULL, *token;
 	size_t n = 0;
 	ssize_t cmd;
 	const char *delim = " \n";
