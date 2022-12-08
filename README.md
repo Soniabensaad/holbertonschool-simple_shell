@@ -73,7 +73,7 @@ $
 nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ ./hsh
 $ 
 ```
-<img src ="https://user-images.githubusercontent.com/113900693/206433600-ca9f8c3e-5f4b-4ce5-8c34-c98195b95555.png)"/>
+<img src ="https://user-images.githubusercontent.com/113900693/206433600-ca9f8c3e-5f4b-4ce5-8c34-c98195b95555.png"/>
 
 ```
 nada@DESKTOP-EEV93SA:~/holbertonschool-simple_shell_new$ ./hsh
