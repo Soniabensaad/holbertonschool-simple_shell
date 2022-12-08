@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * *getlocation - function that return the path
+ * *get_location - function that return the path
  * @command: cmd input
- * Return: path
+ * Return: char
  */
 char *get_location(char *command)
 {
