@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * main - the main shell function
+ * @argc: unused 
+ * @argv: cmd input
+ * Return: 0 (success) or 1(failed)
+ */
 int main(int __attribute__((unused)) argc, char **argv)
 {
 	char *prompt = "$ ";
@@ -8,7 +14,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 	char *token;
 	const char *delim = " \n";
 	int i, num_token = 0;
-	
+
 	while (1)
 	{
 		printf("%s", prompt);
