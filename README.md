@@ -8,18 +8,6 @@
 This project is an implementation of the shell created as the final project for the C code sprint at **Holberton School**.
 It is a simple UNIX shell program built in C. Supported built-in commands are listed below, otherwise this shell is capable of searching for and executing programs on the PATH.
 
-## Table of contents :
-
- - [Description]
- - [Installation]
- - [Usage]
- - [Example]
- - [Contributors]
- - [Acknowledgements]
-# Description >> e-mail:
-This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
-It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
-
 # Installation :
 Simply clone the repo below and compile!
 ```
