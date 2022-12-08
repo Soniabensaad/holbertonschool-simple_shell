@@ -1,0 +1,39 @@
+.\" Manpage for simple_shell of Holberton school
+.TH  man_1_simple_shell "05 December 2022" "1.0" "simple_shell man page"
+.SH NAME
+.B simple_shell \- Shell for Holberton school 
+.SH SYNOPSIS
+.B simple_shell ./hsh
+.SH DESCRIPTION
+Simple_hell is an environment in which we can run our commands, programs, and shell scripts.
+.br
+It gathers input from you and executes programs based on that input. When a program finishes executing, it displays that program's output.
+.SH OVERVIEW
+Simple_shell is a group project of end semester in Holberton school done by (NADA Maaoui,Salma Snoussi , Sonia Ben Saâd).
+.br
+.SH Compilation
+Compile simple_shell with the GNU Compiler Collection, preferably using gcc plus the below specified flags, as  this example:
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.br
+.SH BUILTINS COMMANDS
+.BI Cd
+.br
+The cd change directory command is used to change the current working directory in Linux operating systems.
+.BI Env
+.br
+The env - run a program in a modified environment.
+.BI Ls
+.br
+The ls command is a command-line utility for listing the contents of a directory or files.
+.BI Exit
+.br
+The exit command is used to exit the shell where it is currently running.
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Nada Maaoui
+<5039@holbertonstudents.com>.
+Sonia Ben Saâd 
+<5687@holbertonstudents.com>.
+Salma Snoussi
+<5806@holbertonstudents.com>.
