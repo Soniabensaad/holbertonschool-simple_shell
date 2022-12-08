@@ -7,16 +7,13 @@
  */
 int main(int __attribute__((unused)) argc, char **argv)
 {
-	char *prompt = "$ ";
-	char *lineptr, *lineptr_copy = NULL;
+	char *prompt = "$ " ,*lineptr, *lineptr_copy = NULL, *token;
 	size_t n = 0;
 	ssize_t cmd;
-	char *token;
 	const char *delim = " \n";
 	int i, num_token = 0;
 
-	while (1)
-	{
+	while (1){
 		printf("%s", prompt);
 		cmd = getline(&lineptr, &n, stdin);
 		if (cmd == -1)
@@ -47,7 +44,6 @@ int main(int __attribute__((unused)) argc, char **argv)
 		argv[i] = NULL;
 		execute(argv);
 	}
-
 	free(lineptr_copy);
 	free(lineptr);
 
