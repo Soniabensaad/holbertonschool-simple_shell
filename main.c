@@ -47,6 +47,7 @@ int main(int __attribute__((unused)) argc, char **argv)
 		argv[i] = NULL;
 		execute(argv);
 	}
+
 	free(lineptr_copy);
 	free(lineptr);
 
