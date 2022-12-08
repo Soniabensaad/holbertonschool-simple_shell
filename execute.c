@@ -1,24 +1,15 @@
 #include "main.h"
 
-/**
-* execute - a function that execute a command
-* @argv: pointer array
-*
-*
-*/
-void execute(char **argv)
-{
-	char *cmnd = NULL, *new_cmnd = NULL;
+void execute(char **argv){
+    char *command = NULL, *actual_command = NULL;
 
-	if (argv == 0)
+    if (argv)
 	{
-		cmnd = argv[0];
-
-		new_cmnd = get_location(cmnd);
-
-		if (execve(new_cmnd, argv, NULL) == -1)
-		{
-			perror("Error:");
-		}
-	}
+        command = argv[0];
+        actual_command = get_location(command);
+        if (execve(actual_command, argv, NULL) == -1){
+            perror("Error:");
+        }
+    }
+    
 }
