@@ -1,15 +1,18 @@
 #include "main.h"
+/**
+ *
+ */
+void execute(char **argv)
+{
+	char *command = NULL, *actual_command = NULL;
 
-void execute(char **argv){
-    char *command = NULL, *actual_command = NULL;
-
-    if (argv)
+	if (argv)
 	{
-        command = argv[0];
-        actual_command = get_location(command);
-        if (execve(actual_command, argv, NULL) == -1){
-            perror("Error:");
-        }
-    }
-    
+		command = argv[0];
+		actual_command = get_location(command);
+		if (execve(actual_command, argv, NULL) == -1)
+		{
+			perror("Error:");
+		}
+	}
 }
